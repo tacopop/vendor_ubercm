@@ -147,7 +147,6 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     Eleven \
     LockClock \
-    CMUpdater \
     CMAccount \
     CMHome \
     CyanogenSetupWizard
