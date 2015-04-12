@@ -118,6 +118,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
+# Workaround for NovaLauncher zipalign fails
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher/NovaLauncher.apk
+
+# Copy libgif for Nova Launcher 3.0
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/lib/libgif.so:system/app/NovaLauncher/lib/arm/libgif.so
+
 # This is CM!
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
