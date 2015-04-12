@@ -9,17 +9,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/dictionaries
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    VisualizationWallpapers \
     PhotoTable \
-    SoundRecorder \
-    PhotoPhase
+    SoundRecorder
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
