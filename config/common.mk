@@ -144,7 +144,8 @@ PRODUCT_PACKAGES += \
     VoicePlus \
     Basic \
     libemoji \
-    Terminal
+    Terminal \
+    OpenDelta
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
