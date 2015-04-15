@@ -145,6 +145,7 @@ PRODUCT_PACKAGES += \
     Basic \
     libemoji \
     Terminal \
+    LiveWallpapersPicker \
     OpenDelta
 
 # Custom CM packages
